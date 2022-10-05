@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css">
     <title>Document</title>
   </head>
   <body>
+    <a href="./index.html">inicio</a>
     <h1>Tablas</h1>
     <!--Etiqueta encabezado de tablas-->
     <table border="10" bgcolor="aqua">
@@ -41,5 +43,68 @@
         </tr>
     </tbody>
 </table>
+<h2 class="alumnos">TABLA DE ALUMNOS</h2>
+   <table> 
+        <thead>
+            <th>CURSO</th>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>CORREO</th>
+        </thead>
+    <tbody >
+        <tr>
+            <!-- rowspan utilizan 2 filas-->
+            <td rowspan="3">INGLES</td>
+            <td >PEPE</td>
+            <td>ZAPATA</td>
+            <td>corazon@gmail.com</td>
+        </tr>
+        <tr>
+            <td>PEPE</td>
+            <td>ZAPATA</td>
+            <td>corazon@gmail.com</td>
+        </tr>
+        <tr>
+
+            <td>PEPE</td>
+            <td>ZAPATA</td>
+            <td>corazon@gmail.com</td>
+        </tr>
+
+        <tr>
+            <!--colspan utiliza 2 columnas-->
+            <td rowspan="2">FISICA</td>
+            <td colspan="2">MATEO ZAPATA</td>
+            <td>JUAN@GMAIL.COM</td>
+        </tr>
+        <tr>
+            <td colspan="2">MATEO ZAPATA</td>
+            <td>JUAN@GMAIL.COM</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h2>EJERCICIOS CON TABLAS</h2>
+    <table class="ejercicios">
+        <th>NOMBRE</th>
+        <th>APELLIDO</th>
+        <th>DNI</th>
+
+        <tr>
+            <td>PIERO</td>
+            <td>RAMIREZ</td>
+            <td>975245</td>
+        </tr>
+        <tr>
+            <td>NELSON</td>
+            <td>YAPURA</td>
+            <td>785452</td>
+        </tr>
+        <tr>
+            <td>BRUNO</td>
+            <td>SILVA</td>
+            <td>74582</td>
+        </tr>
+    </table>
   </body>
 </html>
