@@ -1,13 +1,13 @@
-.div1{
-   margin: 0px;
-}
+
 .cabeza{
+
     background-color: #00AF1C;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    border-radius: 0px;
     align-items: center;
+    height: 54px;
+
  
 }
 
