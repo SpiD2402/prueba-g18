@@ -1,16 +1,15 @@
 .div1{
-   margin: 10px;
+   margin: 0px;
 }
 .cabeza{
-
     background-color: #00AF1C;
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    border-radius: 20px;
+    border-radius: 0px;
     align-items: center;
+ 
 }
-
 
 
 header p{
@@ -113,17 +112,19 @@ border: 1px solid #22A900;
 footer{
     display: flex;
     justify-content: space-between;
-    width: 1440px;
-    height: 103px;
+    padding: 25px;
     background-color: #00AF1C;
     margin-top: 20px;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 0px;
     color: white;
     font-weight: bold;
+
+    
 }
 
 footer .p1{
+
     margin-left: 10px;
 }
 
